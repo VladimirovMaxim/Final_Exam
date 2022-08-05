@@ -74,13 +74,19 @@ string[] CreateThreeSymbolArray(string[] stringArray, int size)
 //Число слов для первичного массива  задается пользователем
 Console.WriteLine("Введите количество слов в массивем  ");
 int numberOfWords = Convert.ToInt32(Console.ReadLine());
-
-string[] userArray = CreateStringArray(numberOfWords);
-Console.WriteLine();
-Console.WriteLine("Ваш массив: ");
-ShowStringArray(userArray);
-int threeSymbolWords = CountThreeSymbolsWords(userArray);
-string[] transformedArray = CreateThreeSymbolArray(userArray, threeSymbolWords);
-Console.WriteLine();
-Console.WriteLine("Новый массив: ");
-ShowStringArray(transformedArray);
+if (numberOfWords>0 )
+{
+    string[] userArray = CreateStringArray(numberOfWords);
+    Console.WriteLine();
+    Console.WriteLine("Ваш массив: ");
+    ShowStringArray(userArray);
+    int threeSymbolWords = CountThreeSymbolsWords(userArray);
+    string[] transformedArray = CreateThreeSymbolArray(userArray, threeSymbolWords);
+    Console.WriteLine();
+    Console.WriteLine("Новый массив: ");
+    ShowStringArray(transformedArray);
+}
+else
+{
+    Console.WriteLine("Вы ввели неподходящее значение!");
+}
