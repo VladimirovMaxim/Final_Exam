@@ -37,7 +37,7 @@ int CountThreeSymbolsWords(string[] stringArray)
     int count = 0;
     for (int i = 0; i < stringArray.Length; i++)
     {
-        if (stringArray[i].Length <= 3) count++;
+        if (stringArray[i].Length <= 3 && stringArray[i] != string.Empty) count++;
     }
     return count;
 }
@@ -60,7 +60,7 @@ string[] CreateThreeSymbolArray(string[] stringArray, int size)
         int j = 0;
         for (int i = 0; i < stringArray.Length; i++)
         {
-            if (stringArray[i].Length <= 3)
+            if (stringArray[i].Length <= 3 && stringArray[i] != string.Empty)
             {
                 resultStringArray[j] = stringArray[i];
                 j++;
