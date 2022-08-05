@@ -1,0 +1,15 @@
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\bin\Debug\net6.0\Final_Exam.exe
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\bin\Debug\net6.0\Final_Exam.deps.json
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\bin\Debug\net6.0\Final_Exam.runtimeconfig.json
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\bin\Debug\net6.0\Final_Exam.dll
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\bin\Debug\net6.0\Final_Exam.pdb
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\obj\Debug\net6.0\Final_Exam.csproj.AssemblyReference.cache
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\obj\Debug\net6.0\Final_Exam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\obj\Debug\net6.0\Final_Exam.AssemblyInfoInputs.cache
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\obj\Debug\net6.0\Final_Exam.AssemblyInfo.cs
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\obj\Debug\net6.0\Final_Exam.csproj.CoreCompileInputs.cache
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\obj\Debug\net6.0\Final_Exam.dll
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\obj\Debug\net6.0\refint\Final_Exam.dll
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\obj\Debug\net6.0\Final_Exam.pdb
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\obj\Debug\net6.0\Final_Exam.genruntimeconfig.cache
+C:\Users\Maxon\Desktop\семинары\Итоговая контрольная работа\Final_Exam\obj\Debug\net6.0\ref\Final_Exam.dll
