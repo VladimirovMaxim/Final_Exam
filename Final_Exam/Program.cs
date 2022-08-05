@@ -1,4 +1,6 @@
 ﻿
+// Этот метод берет на вход количество слов в будущем массиве,
+// а на выходе дает массив из слов
 string[] CreateStringArray(int number)
 {
     string[] wordsArray = new string[number];
@@ -11,6 +13,7 @@ string[] CreateStringArray(int number)
    
     return wordsArray;
 }
+//Этот метод берет на вход массив из строк и ввыовдит в консоли этот массив
 void ShowStringArray(string[]stringArray)
 {  
     if(stringArray.Length==1)  Console.Write("{"+stringArray[0]+"}");
@@ -27,7 +30,8 @@ void ShowStringArray(string[]stringArray)
         }
     }
 }
-
+// Этот метод берет на вход массив из строк, а на выходе
+// показывает сколько слов в массиве состоит из трех и менее символов
 int CountThreeSymbolsWords(string[] stringArray)
 {
     int count = 0;
@@ -37,7 +41,9 @@ int CountThreeSymbolsWords(string[] stringArray)
     }
     return count;
 }
-
+//Этот метод берет на вход массив их строк и число слов состояющих 
+//из трех и менее символов. Создает новый массив и заполняет его словами состоящими 
+// из трех и менее символов. На выходе мы получаем  заполненный массив
 string[] CreateThreeSymbolStringArray(string[] stringArray, int size)
 {
     string[] resultStringArray = new string[size];
@@ -53,7 +59,7 @@ string[] CreateThreeSymbolStringArray(string[] stringArray, int size)
     }
     return resultStringArray;
 }
-
+//Число слов для первичного массива  задается пользователем
 Console.WriteLine("Введите количество слов в массивем  ");
 int numberOfWords = Convert.ToInt32(Console.ReadLine());
 
